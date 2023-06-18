@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+    Header
+*/
+
+header{
+    width: 100%;
+    height: 86px;
+    position: sticky;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.header-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-left{
+    margin: 0 100px 0 32px;
+}
+.header-location {
+    margin-right: 40px;
+}
+
+.header-location .title {
+    color: black;
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.header-location .description {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+
+.header-search{
+    width: 832px;
+    height: 46px;
+    cursor: text;
+    border: 1px solid rgba(0,0,0,0.04);
+    border-radius: 12px;
+    padding: 0 12px;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-search svg{
+    width: 20px;
+    font-weight: 600;
+}
+
+.header-search input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.header-login {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+    margin-right: 70px;
+}
+
+.header-right {
+    width: 112px;
+    height: 52px;
+    background-color: rgb(12, 131, 31);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-right svg {
+    width: 20px;
+    margin-right: 8px;
+}
+
