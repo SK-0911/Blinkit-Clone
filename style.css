@@ -56,6 +56,7 @@ header{
     display: flex;
     align-items: center;
     gap: 8px;
+    margin-right: 70px;
 }
 
 .header-search svg{
@@ -87,6 +88,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 40px;
 }
 
 .header-right svg {
@@ -94,3 +96,113 @@ header{
     margin-right: 8px;
 }
 
+/*
+    Main
+*/
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main .container {
+    max-width: 1080px;
+}
+
+.section-1, .section-1 img {
+    width: 100%;
+}
+
+.section-2 {
+    margin-bottom: 16px;
+    display: flex;
+    overflow: auto scroll;
+    gap: 16px;
+    border-radius: 12px;
+}
+
+.section-2 img {
+    height: 195px;
+    width: 335px;
+    cursor: pointer;
+    display: flex;
+}
+
+.section-3 {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-3-img {
+    width: 120px;
+}
+
+.section-3-img img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.section-4 {
+    margin: 16px;
+}
+
+.section-4 .header {
+    font-size: 24px;
+    font-weight: 500;
+}
+.section-list {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    overflow: auto scroll;
+    gap: 20px;
+}
+
+.product-card {
+    padding: 12px;
+    width: 280px;
+    border: 0.5px solid rgb(221, 221, 221);
+}
+
+.product-card img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.product-card .title {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.product-card .desc {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #757575;
+}
+
+.product-card .action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-card button {
+    width: 80px;
+    height: 32px;
+    background-color: rgb(247, 255, 249);
+    border: 1px solid rgb(12, 131, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+    Footer
+*/
+
+footer {
+    margin-top: 32px;
+    padding: 20px;
+    text-align: center;
+}
